@@ -1,14 +1,12 @@
 
-
 describe('Airport', function() {
 
   var airport;
-  //
-  // var Plane = {};
 
-  // beforeEach(function() {
-  //   plane = new Plane()
-  // });
+  beforeEach(function() {
+    airport = new Airport()
+    plane = new Plane()
+  });
 
   describe('land', function() {
 
